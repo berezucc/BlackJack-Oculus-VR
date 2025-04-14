@@ -1,0 +1,1278 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16197 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/User/Documents/Final Project/Final Project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+49960
+Successfully changed project path to: C:/Users/User/Documents/Final Project/Final Project
+C:/Users/User/Documents/Final Project/Final Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25336] Host "[IP] 192.168.51.1 [Port] 0 [Flags] 2 [Guid] 500704335 [EditorId] 500704335 [Version] 1048832 [Id] WindowsEditor(7,VCL-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25336] Host "[IP] 192.168.51.1 [Port] 0 [Flags] 2 [Guid] 500704335 [EditorId] 500704335 [Version] 1048832 [Id] WindowsEditor(7,VCL-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.50 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.56 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Documents/Final Project/Final Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008444 seconds.
+- Loaded All Assemblies, in  0.736 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 1075ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (406ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (384ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.060 seconds
+Refreshing native plugins compatible for Editor in 14.86 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <7ec8e29954a6455daa48484a381ec418>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <7ec8e29954a6455daa48484a381ec418>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <64861216782042de93237b5c061bff1b>:0 
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1935ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (688ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 15.47 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 5508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (326.0 KB). Loaded Objects now: 5981.
+Memory consumption went from 238.9 MB to 238.6 MB.
+Total: 4.337700 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.333400 ms MarkObjects: 3.227000 ms  DeleteObjects: 0.219000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1218.203494 seconds.
+  path: Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Black.mat
+  artifactKey: Guid(811c1d0896d2f7744aa80f0d42deb8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Black.mat using Guid(811c1d0896d2f7744aa80f0d42deb8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a053947d6c7b9f291c70d0facea1ab24') in 0.280229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Casino_Happy/prefabs/Glass_With_Wine02.prefab
+  artifactKey: Guid(a1cd859a2b952f749ac5314e9e96f2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Glass_With_Wine02.prefab using Guid(a1cd859a2b952f749ac5314e9e96f2ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '240bd9c9ec30cd8b19279f0180ebcb0a') in 0.026058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SteamVR/Models/Materials
+  artifactKey: Guid(e22ff154806908042974022eba8106a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Models/Materials using Guid(e22ff154806908042974022eba8106a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5b4a3f97c538852131d71d14853a9dd') in 0.011366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/textures/Entrance01.AlbedoTransparency.png
+  artifactKey: Guid(0ff0504895bc5f4408d1537e8900ccba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance01.AlbedoTransparency.png using Guid(0ff0504895bc5f4408d1537e8900ccba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c0a9df3f3abfc55b94cadb666cf5174') in 0.057659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy
+  artifactKey: Guid(e2ede97d35408b446b567eb753cba05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy using Guid(e2ede97d35408b446b567eb753cba05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '315260a8b27dc88622427ecb6cb6e117') in 0.009221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_Curved_AlbedoTransparency.png
+  artifactKey: Guid(d11fe1233139e1541bf90ad9970deb32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_Curved_AlbedoTransparency.png using Guid(d11fe1233139e1541bf90ad9970deb32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed86cf56b7c2b8e645161deeb7e62479') in 0.029370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/prefabs/Arcades_Tall.prefab
+  artifactKey: Guid(4d16188af65398e438c7c51f202557d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Arcades_Tall.prefab using Guid(4d16188af65398e438c7c51f202557d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4f91b89852e66b3370751d1334d550a') in 0.013280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_Curved_Emission.png
+  artifactKey: Guid(241dc93969a538943992e5c6432caaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_Curved_Emission.png using Guid(241dc93969a538943992e5c6432caaf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c34501663e6ef1e31229962a008dddc') in 0.019631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Entrance03.Normal.png
+  artifactKey: Guid(e16e5d186de0513449d8697293facb39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance03.Normal.png using Guid(e16e5d186de0513449d8697293facb39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30611d4d65821d0b30de2806ea68e31e') in 0.030036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_Curved_MetallicSmoothness.png
+  artifactKey: Guid(a20b2dc3745d928438d9b0136fce2392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_Curved_MetallicSmoothness.png using Guid(a20b2dc3745d928438d9b0136fce2392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '064d9b5090777c3da631199aaa7262b2') in 0.030103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Casino_Happy/fbx/Fries03.fbx
+  artifactKey: Guid(c90d53e6aa8beff4faa13f6cf18b2f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Fries03.fbx using Guid(c90d53e6aa8beff4faa13f6cf18b2f20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bfe120eb59ca2f79d340ec58ed4ed4d') in 0.028020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Casino_Happy/textures/Casino Bar_Emission.png
+  artifactKey: Guid(2a4c8b562c642e1499a6ff4297604a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino Bar_Emission.png using Guid(2a4c8b562c642e1499a6ff4297604a63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a455b47cad29dafc4f9ecbc236af1f5d') in 0.023662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Casino_Happy/prefabs/WineBottle03.prefab
+  artifactKey: Guid(9f2bd57267d836742a125d97dedc2a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/WineBottle03.prefab using Guid(9f2bd57267d836742a125d97dedc2a36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51c2bd3d28861a8fe5dc9659e2c06b47') in 0.016061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_chair01_MetallicSmoothness.png
+  artifactKey: Guid(6b9442cb7a1a50c488417f9ef2cb046b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_chair01_MetallicSmoothness.png using Guid(6b9442cb7a1a50c488417f9ef2cb046b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5a65e754be968da4ff92278ecd3250d') in 0.023368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Casino_Happy/textures/JackPot.AlbedoTransparency.png
+  artifactKey: Guid(6da5e59bdd5ba734aa6f5a2c33af552d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/JackPot.AlbedoTransparency.png using Guid(6da5e59bdd5ba734aa6f5a2c33af552d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78e59b2e04bbced3cc8919758bbbca37') in 0.023253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Baccarads Table_AO.png
+  artifactKey: Guid(18cb4a971bb58e949883a39f4e746313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Baccarads Table_AO.png using Guid(18cb4a971bb58e949883a39f4e746313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b5496495994abe697db04b9ce45ac61') in 0.022046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/genSuit/Materials/genSuit.mat
+  artifactKey: Guid(4ef944738df6cd34285471b45a6884a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/genSuit/Materials/genSuit.mat using Guid(4ef944738df6cd34285471b45a6884a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4383d1d64c6e8b8843a366d7725b7e7') in 0.068666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Casino_Happy/textures/table_Light_Emission.png
+  artifactKey: Guid(ddb56a9e82b2a224386e4b7863699233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/table_Light_Emission.png using Guid(ddb56a9e82b2a224386e4b7863699233) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '638ffa68988a093fe4b0f978907f0e0a') in 0.032794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Casino_Happy/textures/Entrance02.AlbedoTransparency.png
+  artifactKey: Guid(d686d4e1453e47b4090a5b5556d754bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance02.AlbedoTransparency.png using Guid(d686d4e1453e47b4090a5b5556d754bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '663c66abd197c139b9deada06c00f82c') in 0.026386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Casino_Happy/textures/JackPot.MetalicSmoothness.png
+  artifactKey: Guid(8957505da5caa4d418c47540323f7e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/JackPot.MetalicSmoothness.png using Guid(8957505da5caa4d418c47540323f7e85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc5f364b8a029f8ada935af5e00e53e6') in 0.026956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Casino_Happy/prefabs/Casino_Entrance.prefab
+  artifactKey: Guid(f11377939b6353944895a1cda4e0f080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Casino_Entrance.prefab using Guid(f11377939b6353944895a1cda4e0f080) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4a10c80ddaa2c5d96acbe899aa48d52') in 0.015482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Blue.mat
+  artifactKey: Guid(a2db0c3c67993af4aaa820b96620af34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Blue.mat using Guid(a2db0c3c67993af4aaa820b96620af34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dff0aad1e79d084617bb140deea7853c') in 0.016428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/Input/Editor/Resources/Icons
+  artifactKey: Guid(16f1e3ee1a373e34ea3a84a7afa0a259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Input/Editor/Resources/Icons using Guid(16f1e3ee1a373e34ea3a84a7afa0a259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34f2df8ebf92b2c7d05c7728685d533f') in 0.019126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Pillar2_Emission.png
+  artifactKey: Guid(de317dccf8476634d85e705eadb82a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Pillar2_Emission.png using Guid(de317dccf8476634d85e705eadb82a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e11dbba797c34fea44439f08b9212b0') in 0.023516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Casino_Happy/fbx/Neon_Light04.fbx
+  artifactKey: Guid(ec406e825a5723e49b96310ea893e4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Neon_Light04.fbx using Guid(ec406e825a5723e49b96310ea893e4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6691800c1a80e034ad0b3d1bfa27ac33') in 0.018883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Squishy
+  artifactKey: Guid(5b6cb73554b08ce40803f7d5aaf49617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Squishy using Guid(5b6cb73554b08ce40803f7d5aaf49617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54158501248ce826f2fb5be65cb6d783') in 0.008955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Pillar1_AO.png
+  artifactKey: Guid(a36db8f3d4cac784bb09b85d5fe228d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Pillar1_AO.png using Guid(a36db8f3d4cac784bb09b85d5fe228d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ded8300510f1486eca8e75b3761679da') in 0.023420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Casino_Happy/fbx/Bar_Shelf.fbx
+  artifactKey: Guid(42ccc4ddee3679448a6abc027ff0219d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Bar_Shelf.fbx using Guid(42ccc4ddee3679448a6abc027ff0219d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4a641d3613446098da58988bf5aadfa') in 0.028591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Pillar2_MetallicSmoothness.png
+  artifactKey: Guid(5ac4d0bfea1df674494d1e32b50006dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Pillar2_MetallicSmoothness.png using Guid(5ac4d0bfea1df674494d1e32b50006dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26b485543a3ca4258fa148bf69169880') in 0.023856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Casino_Happy/textures/Fries_Shop/Mr-Fries.AmbientOcclusion.png
+  artifactKey: Guid(bb6db249c31c7f242b6728e6753358cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Fries_Shop/Mr-Fries.AmbientOcclusion.png using Guid(bb6db249c31c7f242b6728e6753358cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb6bd9326f7a9a51befcd3cd4755e6ed') in 0.026347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Playing Cards/Resource
+  artifactKey: Guid(c971af88de317f44a8440f18359c8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource using Guid(c971af88de317f44a8440f18359c8a44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ece12b8a765df2aa91e57224c9112a2') in 0.011425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Casino.unitypackage
+  artifactKey: Guid(b75b615cb2c27b74e92d5eb84445af02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Casino.unitypackage using Guid(b75b615cb2c27b74e92d5eb84445af02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f1054eff37f1ae1ef83da261c1a5515') in 0.009567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Casino_Happy/textures/Entrance01.MetalicSmoothness.png
+  artifactKey: Guid(e60bfb7383e1a654392c6d0708651b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance01.MetalicSmoothness.png using Guid(e60bfb7383e1a654392c6d0708651b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95900afb89588813566ea253651cd17d') in 0.044926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop02.AlbedoTransparency.png
+  artifactKey: Guid(cfbb86cdca1653a4f95380719a002976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop02.AlbedoTransparency.png using Guid(cfbb86cdca1653a4f95380719a002976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6eab36a25f45fb37e027b7f6f4e1696e') in 0.023051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_Tall_AlbedoTransparency.png
+  artifactKey: Guid(23f1c387dcbc52e4e84e1dda9c2c1b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_Tall_AlbedoTransparency.png using Guid(23f1c387dcbc52e4e84e1dda9c2c1b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6290c3e55861512957894ce62c2abea') in 0.019829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/fbx/Card_Table.fbx
+  artifactKey: Guid(97ad207599c5eb849b5c1355f250b911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Card_Table.fbx using Guid(97ad207599c5eb849b5c1355f250b911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6a3290ae222c48bb004663158e42737') in 0.033783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Casino_Happy/fbx/Fries02.fbx
+  artifactKey: Guid(198c7596cc421454e8f089ea210931ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Fries02.fbx using Guid(198c7596cc421454e8f089ea210931ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d4244ac75346352dac7be572257d9d3') in 0.017296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Grenade
+  artifactKey: Guid(22af0dbe12a5d8b47ad8228e1327c222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Grenade using Guid(22af0dbe12a5d8b47ad8228e1327c222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df162f291821c9e20e9b98f8cad02e64') in 0.009755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Pillar2_AO.png
+  artifactKey: Guid(014c6eaef14dba444a6832affa54dcca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Pillar2_AO.png using Guid(014c6eaef14dba444a6832affa54dcca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b26059cdd3376a7fccaad111f0f84010') in 0.022290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/fbx/Arcade_Chair02.fbx
+  artifactKey: Guid(e446c4014fe39fe4d95abe7165276e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Arcade_Chair02.fbx using Guid(e446c4014fe39fe4d95abe7165276e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '968f69c62345fbfeca30e1d07d6ebde2') in 0.024909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/Scripts
+  artifactKey: Guid(d88af1b1098a33a42bc43c910c864102) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Scripts using Guid(d88af1b1098a33a42bc43c910c864102) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78e130736695a3a92379298c560bcbb8') in 0.007491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow
+  artifactKey: Guid(ee2359d7e6460d4449d8b8c70d3045b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Longbow using Guid(ee2359d7e6460d4449d8b8c70d3045b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '485789132b6032d4d2730c716024ee83') in 0.008488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(4c610e68b3a326b45b62a6ef42239f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts using Guid(4c610e68b3a326b45b62a6ef42239f9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '477cb9a1c4dc2819a91ebe49c1b31e6f') in 0.008648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Casino_Happy/textures/Entrance01.Emissive.png
+  artifactKey: Guid(57c03502710c45547b52891715b24581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance01.Emissive.png using Guid(57c03502710c45547b52891715b24581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb46fe17ef2225e093051bc9684a36f3') in 0.025417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SteamVR/OpenVRUnityXRPackage/Editor
+  artifactKey: Guid(ffd65d6a9f4d5994e8fa33d7d36c5828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/OpenVRUnityXRPackage/Editor using Guid(ffd65d6a9f4d5994e8fa33d7d36c5828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7071d75033b6362834e34b64862d2e2d') in 0.010245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/prefabs/Drink_refrigerator_full.prefab
+  artifactKey: Guid(6302817557d39db4a9877e78771d9a85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Drink_refrigerator_full.prefab using Guid(6302817557d39db4a9877e78771d9a85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8192de4b3f6b2077a607440dfda25bb') in 0.017905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 684
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8e6d0d79f4884420d53a78c1c3ad88a') in 0.009785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Playing Cards/Scenes
+  artifactKey: Guid(63cfb5a309b01fd40a86994a20850f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Scenes using Guid(63cfb5a309b01fd40a86994a20850f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd744492ebff2ccbdb7a279c44b1c654e') in 0.009330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialInfo/Icons
+  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cecdc91d814ff6cf938f08ba3e1caf5') in 0.008704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Casino_Happy/prefabs/Fries_Shop.prefab
+  artifactKey: Guid(61a8c3a1a5a5ae14c92af1f3e396d87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Fries_Shop.prefab using Guid(61a8c3a1a5a5ae14c92af1f3e396d87b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bca9a028fd2251a74ffe90c606c33e4a') in 0.017651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(123ea0fc861cfeb4a92ddeebd71f24dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/StreamingAssets using Guid(123ea0fc861cfeb4a92ddeebd71f24dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b34fa752a97233b7e84fa233f68e703') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures
+  artifactKey: Guid(07b88b2c18733db478db0c938e95efdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures using Guid(07b88b2c18733db478db0c938e95efdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd12f1e1e2252880c05614a18aef76f9e') in 0.018625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ad073d0bd685b4a499b517b3c030be09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs using Guid(ad073d0bd685b4a499b517b3c030be09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '714e5ca7b5f10c933d4d75d0c8451805') in 0.009702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff
+  artifactKey: Guid(64d7a808e6ea3744592d24f15535c369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff using Guid(64d7a808e6ea3744592d24f15535c369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36cffe371ae3f900b572872888cabf3b') in 0.009743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Casino_Happy/prefabs/WineBottle04.prefab
+  artifactKey: Guid(85d685fc15c71e04c9e21c6d62e77f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/WineBottle04.prefab using Guid(85d685fc15c71e04c9e21c6d62e77f0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6adb71895ac7e153c6fc43c3f402cc4a') in 0.011328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/BlackJack.cs
+  artifactKey: Guid(e69a2410cf59e3e47a1ec0579fd4e5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BlackJack.cs using Guid(e69a2410cf59e3e47a1ec0579fd4e5bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0173a89699a9477cb0ca5ee7a4e23f1f') in 0.011628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets
+  artifactKey: Guid(3ac6db30e75b49b282a3564110579f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets using Guid(3ac6db30e75b49b282a3564110579f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b997be0ca7ed1d88bfa741d8552c78ab') in 0.009864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Casino_Happy/prefabs/Arcade_Set.prefab
+  artifactKey: Guid(a17aa26fb2bc36347afade5b80a7bc82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Arcade_Set.prefab using Guid(a17aa26fb2bc36347afade5b80a7bc82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf01b70b6caf4eadd5310995b1038cec') in 0.013025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 270
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Casino_Happy/fbx/Modern_Pillar.fbx
+  artifactKey: Guid(57eec06219d39a247b097e4a481a0f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Modern_Pillar.fbx using Guid(57eec06219d39a247b097e4a481a0f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '352b3c81a840d5c7bba621173528d8ef') in 0.016659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '876931469086dfb33cb1acbd4889604e') in 0.009216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Casino_Happy/prefabs/Card_Table_Set.prefab
+  artifactKey: Guid(77426792a392cee49bd8a3cb01f2275a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Card_Table_Set.prefab using Guid(77426792a392cee49bd8a3cb01f2275a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2de2a4b1d170bab7b21224175e2f6930') in 0.010959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/SnapTurn
+  artifactKey: Guid(8cf3b74194e86324aab598b62bb3d2a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/SnapTurn using Guid(8cf3b74194e86324aab598b62bb3d2a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46491711f282b79c47229544179615b8') in 0.008484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Playing Cards/Resource/Materials
+  artifactKey: Guid(c3e54175654f85b49ab61e1c2575604f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource/Materials using Guid(c3e54175654f85b49ab61e1c2575604f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1849f360648e2bf4511ddbbc2887114') in 0.008753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Textures
+  artifactKey: Guid(303c0377fb1be1b4bac98a420b0d62bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Textures using Guid(303c0377fb1be1b4bac98a420b0d62bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edfe17994dcb93eeaf3a7ed149860095') in 0.007370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets
+  artifactKey: Guid(7f422cd1388b01047a58cd07c7a23d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets using Guid(7f422cd1388b01047a58cd07c7a23d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30fd1aab69501a94c77ad14ae26df659') in 0.009867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials
+  artifactKey: Guid(452b45a02bfe51243a19acb7251c865b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials using Guid(452b45a02bfe51243a19acb7251c865b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ba9beab61df4ce23a64450243883bdf') in 0.007647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Casino_Happy/textures/Entrance05.AlbedoTransparency.png
+  artifactKey: Guid(f6ff27ab95e239843910e0d904e1d1bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance05.AlbedoTransparency.png using Guid(f6ff27ab95e239843910e0d904e1d1bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19be046b013cf196ad5978bec071c0ae') in 0.023834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/ChipCounter.cs
+  artifactKey: Guid(b7de5c26496e7cd459f942d6f8505d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ChipCounter.cs using Guid(b7de5c26496e7cd459f942d6f8505d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b54d27e8cf1f6faf0b94db8c683c987') in 0.019317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/fbx/Glass_With_Wine02.fbx
+  artifactKey: Guid(39c89e01873e9b54da2b2b6747803248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Glass_With_Wine02.fbx using Guid(39c89e01873e9b54da2b2b6747803248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78187151686e7747c5b0e744bbf0fc68') in 0.017601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Casino_Happy/textures/Casino_Baccarads Table_Height.png
+  artifactKey: Guid(70141bb6ab01e974b9c7adf4dd3a5d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Casino_Baccarads Table_Height.png using Guid(70141bb6ab01e974b9c7adf4dd3a5d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff16c31814e67ffc6e113b135b1a2877') in 0.020361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/textures/Entrance02.MetalicSmoothness.png
+  artifactKey: Guid(7d42eff9977a68444b74f688be598b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance02.MetalicSmoothness.png using Guid(7d42eff9977a68444b74f688be598b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '135c03d506a893c5015d27a2769e8542') in 0.025913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Casino_Happy/prefabs/Neon_Light02.prefab
+  artifactKey: Guid(ed0c70c45bacb9845861b11cccdaeca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Neon_Light02.prefab using Guid(ed0c70c45bacb9845861b11cccdaeca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4739257ba0fd46d2602d698a7a14a7c6') in 0.021937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24112777ac72c019a0bb3acb6997bb97') in 0.008766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Grenade/Materials
+  artifactKey: Guid(e5d8206bd539fff448969eeaad4ced85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Grenade/Materials using Guid(e5d8206bd539fff448969eeaad4ced85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0c30a82016109c35994b80527ea70a8') in 0.007680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SteamVR/Icon
+  artifactKey: Guid(37d1a399d1ea2d24c8f27e07036b83fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Icon using Guid(37d1a399d1ea2d24c8f27e07036b83fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7cf04e96e54587e94c100a46c0e7843') in 0.008461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop_Others.AlbedoTransparency.png
+  artifactKey: Guid(205ca04b106600c41a364e62c477fec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop_Others.AlbedoTransparency.png using Guid(205ca04b106600c41a364e62c477fec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96c8f70bb960b0e58dbbc0508b8cff5b') in 0.024505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Casino_Happy/textures/table_Light_AO.png
+  artifactKey: Guid(58d3cf70622b89f4f9be2ca885aecbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/table_Light_AO.png using Guid(58d3cf70622b89f4f9be2ca885aecbda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '956fca3e08aa4cace076fb25310eaa34') in 0.021798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/Textures
+  artifactKey: Guid(abfc00e0350ad744083849e2d7ae06ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Textures using Guid(abfc00e0350ad744083849e2d7ae06ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c279fcd73749f05345205cbdbc78f3f9') in 0.008991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/fbx/WineBottle05.fbx
+  artifactKey: Guid(bf45fef6546a15b4c9a902ab162c40da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/WineBottle05.fbx using Guid(bf45fef6546a15b4c9a902ab162c40da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '763b798c6a7a9a88fd9399fa4e3b4252') in 0.025222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Casino_Happy/Terrain_Layer.terrainlayer
+  artifactKey: Guid(6c52cfbbe0ad25e4da3feec8632bf350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/Terrain_Layer.terrainlayer using Guid(6c52cfbbe0ad25e4da3feec8632bf350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '556b604eb7a916b0708662357d690399') in 0.022034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/JackPot.AmbientOcclusion.png
+  artifactKey: Guid(eb88a84843421164ba4e08bb683b7f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/JackPot.AmbientOcclusion.png using Guid(eb88a84843421164ba4e08bb683b7f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee91a3f16b5274160d4cda09eb292e0f') in 0.025669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(607e58ba593f73941927e52d904b6d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes using Guid(607e58ba593f73941927e52d904b6d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a41158ff9b7aa427471e613f090addd') in 0.010134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR_Input
+  artifactKey: Guid(02ef2cb401108bd45ab355b7ae9490eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR_Input using Guid(02ef2cb401108bd45ab355b7ae9490eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca6a735412ae84de4c6666893e205f4e') in 0.009913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Casino_Happy/fbx/fries_Shop_Table_Red.fbx
+  artifactKey: Guid(5b82bbf7bae986d4c9b2947d6bbafe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/fries_Shop_Table_Red.fbx using Guid(5b82bbf7bae986d4c9b2947d6bbafe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8488c41efff53ad03ea615d1dae1cbd3') in 0.019820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Casino_Happy/prefabs/Fries03.prefab
+  artifactKey: Guid(261e63a4d29c0ff4f97d542738670dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Fries03.prefab using Guid(261e63a4d29c0ff4f97d542738670dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b6b6a107701cd7c388ab44f2d64a1c') in 0.021500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/textures/table_Light_AlbedoTransparency.png
+  artifactKey: Guid(b853faf5e4224454b982d6c4f73e1003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/table_Light_AlbedoTransparency.png using Guid(b853faf5e4224454b982d6c4f73e1003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91b6c037069bfb8b0c7afaec85103ca6') in 0.021683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Prefabs
+  artifactKey: Guid(a4acc435c26639c4fac0c4358c455259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Prefabs using Guid(a4acc435c26639c4fac0c4358c455259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf045fc1571d99540284e0fb1bc0f404') in 0.009183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_chair01_Emission.png
+  artifactKey: Guid(cf745aac5f37dec48b1ecfbaaa410afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_chair01_Emission.png using Guid(cf745aac5f37dec48b1ecfbaaa410afa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4c95c7e4f9a2057a1e3cef405d726d5') in 0.022145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Casino_Happy/fbx/Bar_Bench.fbx
+  artifactKey: Guid(50b265848fd73714885aeba2ae7b6dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Bar_Bench.fbx using Guid(50b265848fd73714885aeba2ae7b6dfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cc2e55ebce4de5e4a1741543c02306a') in 0.022224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/Extras
+  artifactKey: Guid(61f4796ee4f00314e8d8b1ad39a78c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Extras using Guid(61f4796ee4f00314e8d8b1ad39a78c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e5da94dc0481526c78be26f77d7eaf9') in 0.009301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SteamVR/InteractionSystem/Hints/Materials
+  artifactKey: Guid(a2300d431cc9116478ccc8bb42061072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Hints/Materials using Guid(a2300d431cc9116478ccc8bb42061072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc60f9c40894ba33357f18b5fb00ba2c') in 0.008545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Casino_Happy/textures/Asphalt_Normal.png
+  artifactKey: Guid(a71415445e391494d9e1239b3b32d651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Asphalt_Normal.png using Guid(a71415445e391494d9e1239b3b32d651) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880932d07ad032bd9eb5ca8a3731e4a2') in 0.027047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Casino_Happy/prefabs/Fries_Pack_Full.prefab
+  artifactKey: Guid(92d65894fc50cb74890aba803a98b0fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Fries_Pack_Full.prefab using Guid(92d65894fc50cb74890aba803a98b0fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45d7d87a3e2eaf8d786f6d84169ffcde') in 0.012453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Casino_Happy/textures/Entrance05.Normal.png
+  artifactKey: Guid(72017e5bb7d698f4ab5b94c2454796d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Entrance05.Normal.png using Guid(72017e5bb7d698f4ab5b94c2454796d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8515af71f5a4021306af1e826cead362') in 0.028010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Casino_Happy/fbx/Glass01.fbx
+  artifactKey: Guid(114deb15b5c171d479e8cf4366547527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Glass01.fbx using Guid(114deb15b5c171d479e8cf4366547527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0506d9e64b5afa0999a076b9b9979ded') in 0.026365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Casino_Happy/textures/Asphalt_Albedo.png
+  artifactKey: Guid(0bac36594481a064d86ef6be6754c641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Asphalt_Albedo.png using Guid(0bac36594481a064d86ef6be6754c641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31d0e1f0f3096f4f54b366e51d4adf02') in 0.027482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/Input/Editor/Resources
+  artifactKey: Guid(7d5e740d15d7ca249b884d30ff558bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/Input/Editor/Resources using Guid(7d5e740d15d7ca249b884d30ff558bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fdaea443da227bdea84f7eb62510631') in 0.009651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop01.MetalicSmoothness.png
+  artifactKey: Guid(3575c5a024726af4283b3e5797c8a7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop01.MetalicSmoothness.png using Guid(3575c5a024726af4283b3e5797c8a7bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc58f915a23502deb7d2551c5d401731') in 0.028389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Casino_Happy/prefabs/Glass_With_Wine01.prefab
+  artifactKey: Guid(331a8cc7c2ed56749ad69bcf9d7884b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Glass_With_Wine01.prefab using Guid(331a8cc7c2ed56749ad69bcf9d7884b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0b5855091ce196a7b3156dc99d024d9') in 0.012971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/SnapTurn/Materials
+  artifactKey: Guid(f833381992f014a4bb240bec0f0748f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/SnapTurn/Materials using Guid(f833381992f014a4bb240bec0f0748f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99fa7bb6aec6b9c7bcc6e94a534f0d81') in 0.010392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(54dd57144da4cb34fb0cdfebfcc98d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts using Guid(54dd57144da4cb34fb0cdfebfcc98d5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71028bd7b1a3164a70082c4b2cba62ff') in 0.008559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/Textures
+  artifactKey: Guid(4cab18f37a1da964ba73601017942665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/Textures using Guid(4cab18f37a1da964ba73601017942665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '850aea57210d7ffbc2140f88a4ca06aa') in 0.009335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Casino_Happy/textures/Arcade_body_Normal.png
+  artifactKey: Guid(54cf60498e0b65d4db1b4d6809509c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Arcade_body_Normal.png using Guid(54cf60498e0b65d4db1b4d6809509c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a20449d3df5386d9e8f5ac035c05840') in 0.033585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Animators
+  artifactKey: Guid(e1c0e3b33fba81e4f854a8bc367fc1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Animators using Guid(e1c0e3b33fba81e4f854a8bc367fc1d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aec34503285c6a29e214b8ca7c73c1d4') in 0.009877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Green.mat
+  artifactKey: Guid(8a40827dde8605946842e93f78112050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource/Materials/CasinoItem/CasinoChip_Green.mat using Guid(8a40827dde8605946842e93f78112050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9906af3abe5e7fb061146f5bf09c3a3c') in 0.015736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Casino_Happy/textures/JackPot.Emissive.png
+  artifactKey: Guid(94d0dd797bfe3c14d80fd50b63fd1dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/JackPot.Emissive.png using Guid(94d0dd797bfe3c14d80fd50b63fd1dd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0715a36854b92a6a14d7cfa6a3ec59aa') in 0.026617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Casino_Happy/textures/Ceiling_Normal.png
+  artifactKey: Guid(628f93730200ada4488a3d3d66123cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Ceiling_Normal.png using Guid(628f93730200ada4488a3d3d66123cc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e0aa39ad86a68a0cfb2a0df22f2f152') in 0.025288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/LaserHit.mat
+  artifactKey: Guid(9f1d3a328ddaa9941aa29d741787aa18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/LaserHit.mat using Guid(9f1d3a328ddaa9941aa29d741787aa18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a01f65c57db9f2235ab72e0a43c3dd7') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Casino_Happy/fbx/Fries_Shop.fbx
+  artifactKey: Guid(8255d218c9101b44498e533b2d8f5d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/Fries_Shop.fbx using Guid(8255d218c9101b44498e533b2d8f5d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adb95bc17e29a5a9d1233710462ba14c') in 0.050403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Playing Cards/Resource/Prefab/BackColor_Black
+  artifactKey: Guid(2bdc34d768de9b543ae3384dc61d7618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Resource/Prefab/BackColor_Black using Guid(2bdc34d768de9b543ae3384dc61d7618) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '800f7d22b4c5c716dfe0a764de1a02e6') in 0.009956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/genSuit/Textures/Dark Blue
+  artifactKey: Guid(fb3a238b1f6c50f44a817d290e278d3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/genSuit/Textures/Dark Blue using Guid(fb3a238b1f6c50f44a817d290e278d3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0e8832c7b626f1fa046454f69227373') in 0.011081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop_Boards.MetalicSmoothness.png
+  artifactKey: Guid(fca39d54d703f8847b8111486d2b03c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/textures/Fries_Shop/Fries_Shop_Boards.MetalicSmoothness.png using Guid(fca39d54d703f8847b8111486d2b03c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a5ca8f1be3fce9e828049ccbaf5af40') in 0.039470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Skybox
+  artifactKey: Guid(534443aa118f1de46a27974cbc064e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Skybox using Guid(534443aa118f1de46a27974cbc064e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ea546302d9a69f4624624fa0aeefe6d') in 0.009466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Playing Cards/Motion
+  artifactKey: Guid(6d44baca0193f394ea25b6e587c0efc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Motion using Guid(6d44baca0193f394ea25b6e587c0efc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f19c2ef3a06fa2144e87efbfeea548f6') in 0.007993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/prefabs/Fries01.prefab
+  artifactKey: Guid(423ec903885db7844aa9b822f71b00d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Fries01.prefab using Guid(423ec903885db7844aa9b822f71b00d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d9f606ca9264592d7bcf948df39e838') in 0.011833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Casino_Happy/prefabs/Tall_Stool.prefab
+  artifactKey: Guid(fe0d2a1d619e0994ebbcc1a5a9793774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/prefabs/Tall_Stool.prefab using Guid(fe0d2a1d619e0994ebbcc1a5a9793774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4c6323ce8c0545f8e6d1970a40c1ff0') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials
+  artifactKey: Guid(7aaf325fc9c2739499d94017488bd120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials using Guid(7aaf325fc9c2739499d94017488bd120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58eadb0fa20654d467fc522019b1b831') in 0.009044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Casino_Happy/fbx/WineBottle03.fbx
+  artifactKey: Guid(af9f7351861fd1040bbedb1704624830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Casino_Happy/fbx/WineBottle03.fbx using Guid(af9f7351861fd1040bbedb1704624830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3483f870acf151ae9f485a7c18f44b3') in 0.017703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Playing Cards/Image Effects
+  artifactKey: Guid(078b1740b2eb7fe4fafbe646aa4861af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/Playing Cards/Image Effects using Guid(078b1740b2eb7fe4fafbe646aa4861af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd449b66ac15245c71a07ce9054f431b') in 0.008671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
