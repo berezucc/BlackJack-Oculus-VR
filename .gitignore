@@ -2,9 +2,10 @@
 Library/
 Temp/
 Obj/
-Logs/
 Build/
+Builds/
+Logs/
 
-# Bursty libs & packages
+# Large files
 *.dylib
 *.unitypackage
