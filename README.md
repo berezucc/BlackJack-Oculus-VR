@@ -42,7 +42,7 @@ This project aims to be both entertaining and educational, offering a safe envir
 
 ## 📽️ Project Demo Video
 
-[Watch the project video](#https://www.youtube.com/watch?v=PVt41_nmirQ&ab_channel=NikitaBerezyuk) *(Link goes here once uploaded)*
+[Watch the project video](#https://www.youtube.com/watch?v=PVt41_nmirQ&ab_channel=NikitaBerezyuk)
 
 ---
 
